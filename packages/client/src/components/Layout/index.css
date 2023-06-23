@@ -1,0 +1,16 @@
+.layout-container {
+    display: flex !important;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.layout-display {
+    display: contents;
+    flex-direction: column;
+}
+
+.layout-content {
+    width: 90%;
+}
+
+

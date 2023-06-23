@@ -1,0 +1,78 @@
+yarn workspace v1.22.19
+yarn run v1.22.19
+$ node index.js
+{
+  Income: {
+    'Design income': {},
+    'Discounts given': {},
+    'Landscaping Services': {
+      'Job Materials': [Object],
+      'Total Job Materials': {},
+      Labor: [Object],
+      'Total Labor': {}
+    },
+    'Total Landscaping Services': {},
+    'Other Income': {},
+    'Pest Control Services': {},
+    'Sales of Product Income': {},
+    Services: {},
+    'Uncategorized Income': {}
+  },
+  'Total Income': {},
+  'Cost of Goods Sold': { 'Cost of Goods Sold': {} },
+  'Total Cost of Goods Sold': {},
+  'Gross Profit': {},
+  Expenses: {
+    Advertising: {},
+    Automobile: { Fuel: {} },
+    'Total Automobile': {},
+    'Commissions & fees': {},
+    'Dues & Subscriptions': {},
+    'Equipment Rental': {},
+    Insurance: { 'Workers Compensation': {} },
+    'Total Insurance': {},
+    'Job Expenses': {
+      'Cost of Labor': [Object],
+      'Total Cost of Labor': {},
+      'Job Materials': [Object],
+      'Total Job Materials': {}
+    },
+    'Total Job Expenses': {},
+    'Legal & Professional Fees': { Accounting: {}, Bookkeeper: {}, Lawyer: {} },
+    'Total Legal & Professional Fees': {},
+    'Maintenance and Repair': {
+      'Building Repairs': {},
+      'Computer Repairs': {},
+      'Equipment Repairs': {}
+    },
+    'Total Maintenance and Repair': {},
+    'Meals and Entertainment': {},
+    'Office Expenses': {},
+    Promotional: {},
+    Purchases: {},
+    'Rent or Lease': {},
+    Supplies: {},
+    'Taxes & Licenses': {},
+    Travel: {},
+    'Travel Meals': {},
+    'Unapplied Cash Bill Payment Expense': {},
+    Utilities: { 'Gas and Electric': {}, Telephone: {} },
+    'Total Utilities': {}
+  },
+  'Total Expenses': {},
+  'Net Operating Income': {},
+  'Other Income': { 'Interest Earned': {}, 'Other Portfolio Income': {} },
+  'Total Other Income': {},
+  'Other Expenses': {
+    Depreciation: {},
+    'Gain/Loss on Disposal': {},
+    Miscellaneous: {},
+    'Penalties & Settlements': {},
+    'Reconciliation Discrepancies': {}
+  },
+  'Total Other Expenses': {},
+  'Net Other Income': {},
+  'Net Income': {}
+}
+Done in 0.31s.
+Done in 0.44s.

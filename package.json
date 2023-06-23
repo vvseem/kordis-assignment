@@ -1,0 +1,13 @@
+{
+  "name": "kordis-spreadsheet",
+  "version": "1.0.0",
+  "author": "waseem",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  }
+}
