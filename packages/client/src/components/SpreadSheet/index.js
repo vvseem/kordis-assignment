@@ -8,13 +8,15 @@ const SpreadSheetTable = ({ value }) => {
   const [tableMeta, setTableMeta] = useState(value);
   const [tableData, setTableData] = useState([]);
 
-  const transformedData = getTransformedData(tableMeta.data, tableMeta);
+  console.log(value)
+
+  const transformedData = useMemo(() => getTransformedData(tableMeta.data, tableMeta), [tableMeta]);
   const columns = useMemo(() => getColumns(tableMeta), [tableMeta]);
 
   useEffect(() => {
     if (Object.keys(tableMeta).length) {
       setTableData(
-        transformedData.reduce((acc, value) => {
+        transformedData?.reduce((acc, value) => {
           Object.keys(value).forEach((key) => {
             acc.push(value[key]);
           });
@@ -29,8 +31,6 @@ const SpreadSheetTable = ({ value }) => {
     columns,
     setTableMeta
   );
-
-  if (!tableData) return <></>;
 
   return (
     <>
